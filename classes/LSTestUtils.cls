@@ -36,7 +36,7 @@
  * @modified	: 2017-04-20 [Learnsmarter Only]
  *
  */
-
+@isTest
 public with sharing class LSTestUtils {
 
 	/**
