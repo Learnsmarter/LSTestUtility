@@ -1,6 +1,17 @@
 # Learnsarter Test Utility
 Here we have provided a basic testing utility for external/local customizations to Learnsmarter. This testing utility makes it simple to create data for your unit tests while providing options for including required additional data with minimal modifications to the majority of the code.
 
+## Table of Contents
+* [Compatibility](#compatibility)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Customization Support](#customizations)
+* [Current Object Support](#objects)
+
+## Compatibility
+The following version has been tested. Previous versions may still work. Engage is not supported.
+* Learnsmarter Core 2.70
+
 ## Installation
 To install the test utility, upload the LSTestUtils apex class to your org. The LSTestUtilsTest class is not required but is useful for ensuring the test utility is in working order.
 
