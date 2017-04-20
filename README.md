@@ -60,7 +60,7 @@ public static void afterPrepare(SObject obj) {
     acc.ShippingStreet = '44 Shirley Ave.';
     acc.ShippingCity = 'West Chicago';
     acc.ShippingState = 'IL';
-    acc.ShippingPostalCode = 60185';
+    acc.ShippingPostalCode = '60185';
     acc.ShippingCountry = 'US';
   }
   
