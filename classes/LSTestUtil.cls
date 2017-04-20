@@ -37,7 +37,7 @@
  *
  */
 @isTest
-public with sharing class LSTestUtils {
+public with sharing class LSTestUtil {
 
 	/**
 	 * Empty class by default. This class is called after every object
