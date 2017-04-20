@@ -37,12 +37,12 @@
  */
 
 @isTest
-public with sharing class LSTestUtilsTest {
+public with sharing class LSTestUtilTest {
 
 	public static testMethod void test_createBookings() {
 		Test.startTest();
 
-		lsc__booking__c[] rsBookings = LSTestUtils.createBookings(5);
+		lsc__booking__c[] rsBookings = LSTestUtil.createBookings(5);
 		insert rsBookings;
 
 		Test.stopTest();
