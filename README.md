@@ -1,4 +1,4 @@
-# Learnsarter Test Utility
+# Learnsmarter Test Utility
 Here we have provided a basic testing utility for external/local customizations to Learnsmarter. This testing utility makes it simple to create data for your unit tests while providing options for including required additional data with minimal modifications to the majority of the code.
 
 ## Table of Contents
@@ -36,7 +36,7 @@ lsc__booking__c[] bookings = LSTestUtils.createBookings(5);
 insert bookings;
 ```
 
-This will create 5 registrations (which we refer to as bookings in code), and the subsequent required records related to it.
+This will create 5 registrations (which we refer to as bookings in code), and the required records related to it.
 
 <a name="customization"></a>
 ## Customization Support
