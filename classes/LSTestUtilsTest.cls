@@ -27,7 +27,7 @@
  * This class is used to test the test utility.
  *
  * Because the test utility class is a test class itself, if you wish to see coverage
- * data you must comment out the @isTest annotation from LSTestUtils.
+ * data you must comment out the @isTest annotation from LSTestUtil.
  *
  * This test class is not required but is useful for ensuring the test utility is
  * working as expected.
