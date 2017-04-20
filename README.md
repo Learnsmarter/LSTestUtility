@@ -15,24 +15,24 @@ The following version has been tested. Previous versions may still work. Engage 
 
 <a name="installation"></a>
 ## Installation
-To install the test utility, upload the LSTestUtils apex class to your org. The LSTestUtilsTest class is not required but is useful for ensuring the test utility is in working order.
+To install the test utility, upload the LSTestUtil apex class to your org. The LSTestUtilTest class is not required but is useful for ensuring the test utility is in working order.
 
 <a name="usage"></a>
 ## Usage
-Inside your unit tests, use one of the many static methods defined in the LSTestUtils class for creating your desired Learnsmarter object.
+Inside your unit tests, use one of the many static methods defined in the LSTestUtil class for creating your desired Learnsmarter object.
 
 Please note that you only need to request the object that you desire and do not need to request for parent objects as they will be created for you automatically.
 
 For example, creating registrations is as easy as doing the following:
 
 ```java
-lsc__booking__c[] bookings = LSTestUtils.createBookings(5);
+lsc__booking__c[] bookings = LSTestUtil.createBookings(5);
 ```
 
 The test utility does not insert the final record. This will give you the opportunity to make any changes prior to insertion. Your final product will look something like:
 
 ```java
-lsc__booking__c[] bookings = LSTestUtils.createBookings(5);
+lsc__booking__c[] bookings = LSTestUtil.createBookings(5);
 insert bookings;
 ```
 
