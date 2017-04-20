@@ -5,16 +5,19 @@ Here we have provided a basic testing utility for external/local customizations 
 * [Compatibility](#compatibility)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Customization Support](#customizations)
+* [Customization Support](#customization)
 * [Current Object Support](#objects)
 
+<a name="compatibility"></a>
 ## Compatibility
 The following version has been tested. Previous versions may still work. Engage is not supported.
 * Learnsmarter Core 2.70
 
+<a name="installation"></a>
 ## Installation
 To install the test utility, upload the LSTestUtils apex class to your org. The LSTestUtilsTest class is not required but is useful for ensuring the test utility is in working order.
 
+<a name="usage"></a>
 ## Usage
 Inside your unit tests, use one of the many static methods defined in the LSTestUtils class for creating your desired Learnsmarter object.
 
@@ -35,6 +38,7 @@ insert bookings;
 
 This will create 5 registrations (which we refer to as bookings in code), and the subsequent required records related to it.
 
+<a name="customization"></a>
 ## Customization Support
 
 If you have customizations that easily cause unit tests to fail, you can use the `afterPrepare()` method location at the top of the class to specify what changes to records you wish to make before they are inserted. This would be useful in the case where you are simply creating registrations but want to ensure you have the correct fields set on the Account to pass a validation rule for instance.
@@ -64,7 +68,7 @@ public static void afterPrepare(SObject obj) {
 }
 ```
 
-
+<a name="objects"></a>
 ## Current Object Support
 This test utility currently supports the following objects. Support for more objects will be included as demand for the test utility increases.
 
