@@ -155,6 +155,7 @@ public with sharing class LSTestUtil {
 			courses.add(new lsc__course__c(
 					Name = 'Course ' + i,
 					lsc__CourseArea__c = courseAreaId,
+					lsc__CourseType__c = 'Classroom',
 					lsc__IsActive__c = true,
 					lsc__IsVisible__c = true
 			));
